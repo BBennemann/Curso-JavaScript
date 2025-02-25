@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aeroporto</title>
+    <style>
+        body {
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Segurança</h1>
+    De onde você é? <input type="text" name="txtnas" id="txtnas"> <input type="button" value="Verificar" onclick="verificar()">
+    <div id="Resp"></div>
+
+    <script>
+        var nas = window.document.querySelector('input#txtnas')
+        var resp = window.document.querySelector('div#Resp')
+        function verificar() {
+            if (nas.value == 'Brasil' || nas.value == 'brasil') {
+                resp.innerHTML = 'Você é brasileiro, seja bem-vindo!'
+            }else {
+                resp.innerHTML = 'Você é estrangeiro, passaporte porfavor!'
+            }
+        }
+    </script>
+
+</body>
+</html>
+
+
+
+
