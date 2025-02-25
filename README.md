@@ -9,3 +9,5 @@ Este repositório contém os códigos e exercícios desenvolvidos durante o Curs
 - Eventos e interatividade
 - Introdução ao CSS e HTML para integração
 - Pequenos projetos práticos
+
+Sinta-se à vontade para explorar, modificar e contribuir! 😊 [Link da Playlist do Curso](https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1)
